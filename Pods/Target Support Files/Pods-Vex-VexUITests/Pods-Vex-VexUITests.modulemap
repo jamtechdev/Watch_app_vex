@@ -1,0 +1,6 @@
+framework module Pods_Vex_VexUITests {
+  umbrella header "Pods-Vex-VexUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

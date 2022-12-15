@@ -1,0 +1,6 @@
+framework module Pods_Vex_Watch_App_Vex_Watch_AppUITests {
+  umbrella header "Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

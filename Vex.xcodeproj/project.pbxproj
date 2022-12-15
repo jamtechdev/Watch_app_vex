@@ -1,0 +1,1423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B035C4D5942A4D2422E6096 /* Pods_Vex_Watch_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F3F46957559622DF1E5CF5 /* Pods_Vex_Watch_AppTests.framework */; };
+		36010289C0437AD8744E8951 /* Pods_Vex_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B5A6D3B8BEE411B2798C1 /* Pods_Vex_Watch_App.framework */; };
+		A898C76BB29035D5A11CDB2C /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F4C9ACB88758797604222 /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework */; };
+		ACB0AB852944880E00AAC2CC /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0AB842944880E00AAC2CC /* HeartRateView.swift */; };
+		ACC3155C29470F380025C6EA /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3155B29470F380025C6EA /* LoginModel.swift */; };
+		ACC3156029471A290025C6EA /* VerificationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3155E29471A0E0025C6EA /* VerificationViewViewModel.swift */; };
+		ACC3156129471A2D0025C6EA /* WatchConnectivityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3155F29471A0E0025C6EA /* WatchConnectivityClass.swift */; };
+		ACDC50BA29445A7C00E12CBC /* VexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50B929445A7C00E12CBC /* VexApp.swift */; };
+		ACDC50BC29445A7C00E12CBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50BB29445A7C00E12CBC /* ContentView.swift */; };
+		ACDC50BE29445A7E00E12CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDC50BD29445A7E00E12CBC /* Assets.xcassets */; };
+		ACDC50C129445A7E00E12CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDC50C029445A7E00E12CBC /* Preview Assets.xcassets */; };
+		ACDC50CB29445A7E00E12CBC /* VexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50CA29445A7E00E12CBC /* VexTests.swift */; };
+		ACDC50D529445A7E00E12CBC /* VexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50D429445A7E00E12CBC /* VexUITests.swift */; };
+		ACDC50D729445A7E00E12CBC /* VexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50D629445A7E00E12CBC /* VexUITestsLaunchTests.swift */; };
+		ACDC50DD29445A7E00E12CBC /* Vex Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ACDC50DC29445A7E00E12CBC /* Vex Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ACDC50E229445A7E00E12CBC /* VexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50E129445A7E00E12CBC /* VexApp.swift */; };
+		ACDC50E429445A7E00E12CBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50E329445A7E00E12CBC /* ContentView.swift */; };
+		ACDC50E629445A8000E12CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDC50E529445A8000E12CBC /* Assets.xcassets */; };
+		ACDC50E929445A8000E12CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDC50E829445A8000E12CBC /* Preview Assets.xcassets */; };
+		ACDC50F329445A8000E12CBC /* Vex_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50F229445A8000E12CBC /* Vex_Watch_AppTests.swift */; };
+		ACDC50FD29445A8000E12CBC /* Vex_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50FC29445A8000E12CBC /* Vex_Watch_AppUITests.swift */; };
+		ACDC50FF29445A8000E12CBC /* Vex_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC50FE29445A8000E12CBC /* Vex_Watch_AppUITestsLaunchTests.swift */; };
+		ACDC511629445B8F00E12CBC /* EnterCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC511529445B8F00E12CBC /* EnterCodeView.swift */; };
+		ACDC511829445BF800E12CBC /* PinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC511729445BF800E12CBC /* PinCodeView.swift */; };
+		ACDC511A29445C0600E12CBC /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC511929445C0600E12CBC /* NumberPadView.swift */; };
+		ACDC511C29445C2D00E12CBC /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC511B29445C2D00E12CBC /* Globals.swift */; };
+		ACDC511E29445C6500E12CBC /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC511D29445C6500E12CBC /* StreamView.swift */; };
+		ACDC512029445C7000E12CBC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC511F29445C7000E12CBC /* ViewModel.swift */; };
+		ACDC512229445D0200E12CBC /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDC512129445D0200E12CBC /* VerificationView.swift */; };
+		ACF675E62944B67A008726D4 /* ClassCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF675E52944B67A008726D4 /* ClassCodeView.swift */; };
+		B5DE76C66E0D7A384D136FA0 /* Pods_VexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E247CB98F04669FCC562A08 /* Pods_VexTests.framework */; };
+		C62BC4C491E9C6CEED932C70 /* Pods_Vex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A35A9D4F12DDF7565A0CA04 /* Pods_Vex.framework */; };
+		E17C51881A27306956B92501 /* Pods_Vex_VexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58F579FF9B31FEE2050C27A /* Pods_Vex_VexUITests.framework */; };
+		FEFAD8B629485D7800C330D2 /* ConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFAD8B529485D7800C330D2 /* ConnectivityViewModel.swift */; };
+		FEFAD8B929487E2C00C330D2 /* TerraRTiOS in Frameworks */ = {isa = PBXBuildFile; productRef = FEFAD8B829487E2C00C330D2 /* TerraRTiOS */; };
+		FEFAD8BB29487F0000C330D2 /* TerraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFAD8BA29487F0000C330D2 /* TerraViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDC50C729445A7E00E12CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDC50B529445A7C00E12CBC;
+			remoteInfo = Vex;
+		};
+		ACDC50D129445A7E00E12CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDC50B529445A7C00E12CBC;
+			remoteInfo = Vex;
+		};
+		ACDC50DE29445A7E00E12CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDC50DB29445A7E00E12CBC;
+			remoteInfo = "Vex Watch App";
+		};
+		ACDC50EF29445A8000E12CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDC50DB29445A7E00E12CBC;
+			remoteInfo = "Vex Watch App";
+		};
+		ACDC50F929445A8000E12CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDC50DB29445A7E00E12CBC;
+			remoteInfo = "Vex Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACDC510529445A8000E12CBC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ACDC50DD29445A7E00E12CBC /* Vex Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E247CB98F04669FCC562A08 /* Pods_VexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F3F46957559622DF1E5CF5 /* Pods_Vex_Watch_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vex_Watch_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E93FC5F1912A68DC2B5ED1D /* Pods-VexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VexTests.release.xcconfig"; path = "Target Support Files/Pods-VexTests/Pods-VexTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B4209BF6E0E6EB196753CA9 /* Pods-Vex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex.release.xcconfig"; path = "Target Support Files/Pods-Vex/Pods-Vex.release.xcconfig"; sourceTree = "<group>"; };
+		46CEF361B097C3CE30A64E8A /* Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D8F4C9ACB88758797604222 /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		555542CA7CE04797E21CE6E5 /* Pods-Vex Watch AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex Watch AppTests.release.xcconfig"; path = "Target Support Files/Pods-Vex Watch AppTests/Pods-Vex Watch AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E1785D4C1D080BE9B10F33 /* Pods-Vex Watch AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex Watch AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Vex Watch AppTests/Pods-Vex Watch AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8015EAC8D5BD9706131BCB2F /* Pods-Vex-VexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex-VexUITests.release.xcconfig"; path = "Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D869973C8985014B36E7C54 /* Pods-Vex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex.debug.xcconfig"; path = "Target Support Files/Pods-Vex/Pods-Vex.debug.xcconfig"; sourceTree = "<group>"; };
+		9A35A9D4F12DDF7565A0CA04 /* Pods_Vex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B0125205E52C4E6C10D780 /* Pods-Vex-VexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex-VexUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2E87622ACE5D96B294E1876 /* Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A66B5A6D3B8BEE411B2798C1 /* Pods_Vex_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vex_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A882F236FB0462F1FE821BAA /* Pods-VexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VexTests.debug.xcconfig"; path = "Target Support Files/Pods-VexTests/Pods-VexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6C1EA5294750790029A244 /* Vex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vex.entitlements; sourceTree = "<group>"; };
+		ACB0AB842944880E00AAC2CC /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		ACC3155B29470F380025C6EA /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		ACC3155E29471A0E0025C6EA /* VerificationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewViewModel.swift; sourceTree = "<group>"; };
+		ACC3155F29471A0E0025C6EA /* WatchConnectivityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityClass.swift; sourceTree = "<group>"; };
+		ACC31562294730600025C6EA /* Vex Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vex Watch App.entitlements"; sourceTree = "<group>"; };
+		ACDC50B629445A7C00E12CBC /* Vex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC50B929445A7C00E12CBC /* VexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexApp.swift; sourceTree = "<group>"; };
+		ACDC50BB29445A7C00E12CBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACDC50BD29445A7E00E12CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDC50C029445A7E00E12CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACDC50C629445A7E00E12CBC /* VexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC50CA29445A7E00E12CBC /* VexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexTests.swift; sourceTree = "<group>"; };
+		ACDC50D029445A7E00E12CBC /* VexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC50D429445A7E00E12CBC /* VexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexUITests.swift; sourceTree = "<group>"; };
+		ACDC50D629445A7E00E12CBC /* VexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACDC50DC29445A7E00E12CBC /* Vex Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vex Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC50E129445A7E00E12CBC /* VexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VexApp.swift; sourceTree = "<group>"; };
+		ACDC50E329445A7E00E12CBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACDC50E529445A8000E12CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDC50E829445A8000E12CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACDC50EE29445A8000E12CBC /* Vex Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vex Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC50F229445A8000E12CBC /* Vex_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vex_Watch_AppTests.swift; sourceTree = "<group>"; };
+		ACDC50F829445A8000E12CBC /* Vex Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vex Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC50FC29445A8000E12CBC /* Vex_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vex_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		ACDC50FE29445A8000E12CBC /* Vex_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vex_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACDC511529445B8F00E12CBC /* EnterCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeView.swift; sourceTree = "<group>"; };
+		ACDC511729445BF800E12CBC /* PinCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeView.swift; sourceTree = "<group>"; };
+		ACDC511929445C0600E12CBC /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		ACDC511B29445C2D00E12CBC /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		ACDC511D29445C6500E12CBC /* StreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamView.swift; sourceTree = "<group>"; };
+		ACDC511F29445C7000E12CBC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		ACDC512129445D0200E12CBC /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		ACF675E52944B67A008726D4 /* ClassCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCodeView.swift; sourceTree = "<group>"; };
+		C58F579FF9B31FEE2050C27A /* Pods_Vex_VexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vex_VexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79D046604681BBAB65CA816 /* Pods-Vex Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex Watch App.debug.xcconfig"; path = "Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		FEFAD8B529485D7800C330D2 /* ConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityViewModel.swift; sourceTree = "<group>"; };
+		FEFAD8BA29487F0000C330D2 /* TerraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraViewModel.swift; sourceTree = "<group>"; };
+		FF4EC9AD9ABA15FBF0012215 /* Pods-Vex Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vex Watch App.release.xcconfig"; path = "Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDC50B329445A7C00E12CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62BC4C491E9C6CEED932C70 /* Pods_Vex.framework in Frameworks */,
+				FEFAD8B929487E2C00C330D2 /* TerraRTiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50C329445A7E00E12CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DE76C66E0D7A384D136FA0 /* Pods_VexTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50CD29445A7E00E12CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17C51881A27306956B92501 /* Pods_Vex_VexUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50D929445A7E00E12CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36010289C0437AD8744E8951 /* Pods_Vex_Watch_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50EB29445A8000E12CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B035C4D5942A4D2422E6096 /* Pods_Vex_Watch_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50F529445A8000E12CBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A898C76BB29035D5A11CDB2C /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78CF6A903F293654B72F5EAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D869973C8985014B36E7C54 /* Pods-Vex.debug.xcconfig */,
+				3B4209BF6E0E6EB196753CA9 /* Pods-Vex.release.xcconfig */,
+				D79D046604681BBAB65CA816 /* Pods-Vex Watch App.debug.xcconfig */,
+				FF4EC9AD9ABA15FBF0012215 /* Pods-Vex Watch App.release.xcconfig */,
+				A2E87622ACE5D96B294E1876 /* Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig */,
+				46CEF361B097C3CE30A64E8A /* Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig */,
+				56E1785D4C1D080BE9B10F33 /* Pods-Vex Watch AppTests.debug.xcconfig */,
+				555542CA7CE04797E21CE6E5 /* Pods-Vex Watch AppTests.release.xcconfig */,
+				A1B0125205E52C4E6C10D780 /* Pods-Vex-VexUITests.debug.xcconfig */,
+				8015EAC8D5BD9706131BCB2F /* Pods-Vex-VexUITests.release.xcconfig */,
+				A882F236FB0462F1FE821BAA /* Pods-VexTests.debug.xcconfig */,
+				2E93FC5F1912A68DC2B5ED1D /* Pods-VexTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACC3155D29471A0E0025C6EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACC3155E29471A0E0025C6EA /* VerificationViewViewModel.swift */,
+				ACC3155F29471A0E0025C6EA /* WatchConnectivityClass.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACDC50AD29445A7C00E12CBC = {
+			isa = PBXGroup;
+			children = (
+				ACDC50B829445A7C00E12CBC /* Vex */,
+				ACDC50C929445A7E00E12CBC /* VexTests */,
+				ACDC50D329445A7E00E12CBC /* VexUITests */,
+				ACDC50E029445A7E00E12CBC /* Vex Watch App */,
+				ACDC50F129445A8000E12CBC /* Vex Watch AppTests */,
+				ACDC50FB29445A8000E12CBC /* Vex Watch AppUITests */,
+				ACDC50B729445A7C00E12CBC /* Products */,
+				78CF6A903F293654B72F5EAA /* Pods */,
+				DB6767008FF03784F1BF76F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDC50B729445A7C00E12CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50B629445A7C00E12CBC /* Vex.app */,
+				ACDC50C629445A7E00E12CBC /* VexTests.xctest */,
+				ACDC50D029445A7E00E12CBC /* VexUITests.xctest */,
+				ACDC50DC29445A7E00E12CBC /* Vex Watch App.app */,
+				ACDC50EE29445A8000E12CBC /* Vex Watch AppTests.xctest */,
+				ACDC50F829445A8000E12CBC /* Vex Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDC50B829445A7C00E12CBC /* Vex */ = {
+			isa = PBXGroup;
+			children = (
+				AC6C1EA5294750790029A244 /* Vex.entitlements */,
+				ACDC50B929445A7C00E12CBC /* VexApp.swift */,
+				ACDC50BB29445A7C00E12CBC /* ContentView.swift */,
+				ACDC50BD29445A7E00E12CBC /* Assets.xcassets */,
+				ACDC50BF29445A7E00E12CBC /* Preview Content */,
+				ACB0AB842944880E00AAC2CC /* HeartRateView.swift */,
+				ACF675E52944B67A008726D4 /* ClassCodeView.swift */,
+				ACC3155B29470F380025C6EA /* LoginModel.swift */,
+				FEFAD8B529485D7800C330D2 /* ConnectivityViewModel.swift */,
+				FEFAD8BA29487F0000C330D2 /* TerraViewModel.swift */,
+			);
+			path = Vex;
+			sourceTree = "<group>";
+		};
+		ACDC50BF29445A7E00E12CBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50C029445A7E00E12CBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACDC50C929445A7E00E12CBC /* VexTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50CA29445A7E00E12CBC /* VexTests.swift */,
+			);
+			path = VexTests;
+			sourceTree = "<group>";
+		};
+		ACDC50D329445A7E00E12CBC /* VexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50D429445A7E00E12CBC /* VexUITests.swift */,
+				ACDC50D629445A7E00E12CBC /* VexUITestsLaunchTests.swift */,
+			);
+			path = VexUITests;
+			sourceTree = "<group>";
+		};
+		ACDC50E029445A7E00E12CBC /* Vex Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ACC31562294730600025C6EA /* Vex Watch App.entitlements */,
+				ACDC50E129445A7E00E12CBC /* VexApp.swift */,
+				ACDC50E329445A7E00E12CBC /* ContentView.swift */,
+				ACDC50E529445A8000E12CBC /* Assets.xcassets */,
+				ACDC50E729445A8000E12CBC /* Preview Content */,
+				ACDC511529445B8F00E12CBC /* EnterCodeView.swift */,
+				ACDC511729445BF800E12CBC /* PinCodeView.swift */,
+				ACDC511929445C0600E12CBC /* NumberPadView.swift */,
+				ACDC511B29445C2D00E12CBC /* Globals.swift */,
+				ACDC511D29445C6500E12CBC /* StreamView.swift */,
+				ACDC511F29445C7000E12CBC /* ViewModel.swift */,
+				ACDC512129445D0200E12CBC /* VerificationView.swift */,
+				ACC3155D29471A0E0025C6EA /* ViewModel */,
+			);
+			path = "Vex Watch App";
+			sourceTree = "<group>";
+		};
+		ACDC50E729445A8000E12CBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50E829445A8000E12CBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACDC50F129445A8000E12CBC /* Vex Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50F229445A8000E12CBC /* Vex_Watch_AppTests.swift */,
+			);
+			path = "Vex Watch AppTests";
+			sourceTree = "<group>";
+		};
+		ACDC50FB29445A8000E12CBC /* Vex Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC50FC29445A8000E12CBC /* Vex_Watch_AppUITests.swift */,
+				ACDC50FE29445A8000E12CBC /* Vex_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Vex Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		DB6767008FF03784F1BF76F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A35A9D4F12DDF7565A0CA04 /* Pods_Vex.framework */,
+				A66B5A6D3B8BEE411B2798C1 /* Pods_Vex_Watch_App.framework */,
+				4D8F4C9ACB88758797604222 /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework */,
+				28F3F46957559622DF1E5CF5 /* Pods_Vex_Watch_AppTests.framework */,
+				C58F579FF9B31FEE2050C27A /* Pods_Vex_VexUITests.framework */,
+				0E247CB98F04669FCC562A08 /* Pods_VexTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDC50B529445A7C00E12CBC /* Vex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC510629445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex" */;
+			buildPhases = (
+				04D2145B677B9A2F2B23B3D1 /* [CP] Check Pods Manifest.lock */,
+				ACDC50B229445A7C00E12CBC /* Sources */,
+				ACDC50B329445A7C00E12CBC /* Frameworks */,
+				ACDC50B429445A7C00E12CBC /* Resources */,
+				ACDC510529445A8000E12CBC /* Embed Watch Content */,
+				F48138074F17C549D384C706 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDC50DF29445A7E00E12CBC /* PBXTargetDependency */,
+			);
+			name = Vex;
+			packageProductDependencies = (
+				FEFAD8B829487E2C00C330D2 /* TerraRTiOS */,
+			);
+			productName = Vex;
+			productReference = ACDC50B629445A7C00E12CBC /* Vex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDC50C529445A7E00E12CBC /* VexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC510929445A8000E12CBC /* Build configuration list for PBXNativeTarget "VexTests" */;
+			buildPhases = (
+				FCB96A5A02DA4FE42889492B /* [CP] Check Pods Manifest.lock */,
+				ACDC50C229445A7E00E12CBC /* Sources */,
+				ACDC50C329445A7E00E12CBC /* Frameworks */,
+				ACDC50C429445A7E00E12CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDC50C829445A7E00E12CBC /* PBXTargetDependency */,
+			);
+			name = VexTests;
+			productName = VexTests;
+			productReference = ACDC50C629445A7E00E12CBC /* VexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDC50CF29445A7E00E12CBC /* VexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC510C29445A8000E12CBC /* Build configuration list for PBXNativeTarget "VexUITests" */;
+			buildPhases = (
+				EECEE0A3FAB3A1A32E76F750 /* [CP] Check Pods Manifest.lock */,
+				ACDC50CC29445A7E00E12CBC /* Sources */,
+				ACDC50CD29445A7E00E12CBC /* Frameworks */,
+				ACDC50CE29445A7E00E12CBC /* Resources */,
+				E0D7A59CC7B9FBB272ED1372 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDC50D229445A7E00E12CBC /* PBXTargetDependency */,
+			);
+			name = VexUITests;
+			productName = VexUITests;
+			productReference = ACDC50D029445A7E00E12CBC /* VexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ACDC50DB29445A7E00E12CBC /* Vex Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC510229445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex Watch App" */;
+			buildPhases = (
+				F231893D1E187E3F11B2EA99 /* [CP] Check Pods Manifest.lock */,
+				ACDC50D829445A7E00E12CBC /* Sources */,
+				ACDC50D929445A7E00E12CBC /* Frameworks */,
+				ACDC50DA29445A7E00E12CBC /* Resources */,
+				2FB79C4517EEDFB32437A199 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vex Watch App";
+			productName = "Vex Watch App";
+			productReference = ACDC50DC29445A7E00E12CBC /* Vex Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDC50ED29445A8000E12CBC /* Vex Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC510F29445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex Watch AppTests" */;
+			buildPhases = (
+				E097A2763E40F41F7F738378 /* [CP] Check Pods Manifest.lock */,
+				ACDC50EA29445A8000E12CBC /* Sources */,
+				ACDC50EB29445A8000E12CBC /* Frameworks */,
+				ACDC50EC29445A8000E12CBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDC50F029445A8000E12CBC /* PBXTargetDependency */,
+			);
+			name = "Vex Watch AppTests";
+			productName = "Vex Watch AppTests";
+			productReference = ACDC50EE29445A8000E12CBC /* Vex Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDC50F729445A8000E12CBC /* Vex Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC511229445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex Watch AppUITests" */;
+			buildPhases = (
+				D4EE4A0021395C9F32662EF0 /* [CP] Check Pods Manifest.lock */,
+				ACDC50F429445A8000E12CBC /* Sources */,
+				ACDC50F529445A8000E12CBC /* Frameworks */,
+				ACDC50F629445A8000E12CBC /* Resources */,
+				C7EB9C14CCBBA4BDD359F843 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDC50FA29445A8000E12CBC /* PBXTargetDependency */,
+			);
+			name = "Vex Watch AppUITests";
+			productName = "Vex Watch AppUITests";
+			productReference = ACDC50F829445A8000E12CBC /* Vex Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDC50AE29445A7C00E12CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ACDC50B529445A7C00E12CBC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					ACDC50C529445A7E00E12CBC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = ACDC50B529445A7C00E12CBC;
+					};
+					ACDC50CF29445A7E00E12CBC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = ACDC50B529445A7C00E12CBC;
+					};
+					ACDC50DB29445A7E00E12CBC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					ACDC50ED29445A8000E12CBC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = ACDC50DB29445A7E00E12CBC;
+					};
+					ACDC50F729445A8000E12CBC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = ACDC50DB29445A7E00E12CBC;
+					};
+				};
+			};
+			buildConfigurationList = ACDC50B129445A7C00E12CBC /* Build configuration list for PBXProject "Vex" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDC50AD29445A7C00E12CBC;
+			packageReferences = (
+				FEFAD8B729487E2C00C330D2 /* XCRemoteSwiftPackageReference "TerraRTiOS" */,
+			);
+			productRefGroup = ACDC50B729445A7C00E12CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDC50B529445A7C00E12CBC /* Vex */,
+				ACDC50C529445A7E00E12CBC /* VexTests */,
+				ACDC50CF29445A7E00E12CBC /* VexUITests */,
+				ACDC50DB29445A7E00E12CBC /* Vex Watch App */,
+				ACDC50ED29445A8000E12CBC /* Vex Watch AppTests */,
+				ACDC50F729445A8000E12CBC /* Vex Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDC50B429445A7C00E12CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50C129445A7E00E12CBC /* Preview Assets.xcassets in Resources */,
+				ACDC50BE29445A7E00E12CBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50C429445A7E00E12CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50CE29445A7E00E12CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50DA29445A7E00E12CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50E929445A8000E12CBC /* Preview Assets.xcassets in Resources */,
+				ACDC50E629445A8000E12CBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50EC29445A8000E12CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50F629445A8000E12CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04D2145B677B9A2F2B23B3D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FB79C4517EEDFB32437A199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7EB9C14CCBBA4BDD359F843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EE4A0021395C9F32662EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vex Watch App-Vex Watch AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E097A2763E40F41F7F738378 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vex Watch AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D7A59CC7B9FBB272ED1372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECEE0A3FAB3A1A32E76F750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vex-VexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F231893D1E187E3F11B2EA99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vex Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F48138074F17C549D384C706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex/Pods-Vex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vex/Pods-Vex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vex/Pods-Vex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB96A5A02DA4FE42889492B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDC50B229445A7C00E12CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC3155C29470F380025C6EA /* LoginModel.swift in Sources */,
+				FEFAD8BB29487F0000C330D2 /* TerraViewModel.swift in Sources */,
+				ACDC50BC29445A7C00E12CBC /* ContentView.swift in Sources */,
+				ACDC50BA29445A7C00E12CBC /* VexApp.swift in Sources */,
+				FEFAD8B629485D7800C330D2 /* ConnectivityViewModel.swift in Sources */,
+				ACF675E62944B67A008726D4 /* ClassCodeView.swift in Sources */,
+				ACB0AB852944880E00AAC2CC /* HeartRateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50C229445A7E00E12CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50CB29445A7E00E12CBC /* VexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50CC29445A7E00E12CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50D729445A7E00E12CBC /* VexUITestsLaunchTests.swift in Sources */,
+				ACDC50D529445A7E00E12CBC /* VexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50D829445A7E00E12CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50E429445A7E00E12CBC /* ContentView.swift in Sources */,
+				ACDC511E29445C6500E12CBC /* StreamView.swift in Sources */,
+				ACDC511829445BF800E12CBC /* PinCodeView.swift in Sources */,
+				ACC3156129471A2D0025C6EA /* WatchConnectivityClass.swift in Sources */,
+				ACDC511C29445C2D00E12CBC /* Globals.swift in Sources */,
+				ACDC511A29445C0600E12CBC /* NumberPadView.swift in Sources */,
+				ACDC50E229445A7E00E12CBC /* VexApp.swift in Sources */,
+				ACC3156029471A290025C6EA /* VerificationViewViewModel.swift in Sources */,
+				ACDC512229445D0200E12CBC /* VerificationView.swift in Sources */,
+				ACDC512029445C7000E12CBC /* ViewModel.swift in Sources */,
+				ACDC511629445B8F00E12CBC /* EnterCodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50EA29445A8000E12CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50F329445A8000E12CBC /* Vex_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDC50F429445A8000E12CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC50FF29445A8000E12CBC /* Vex_Watch_AppUITestsLaunchTests.swift in Sources */,
+				ACDC50FD29445A8000E12CBC /* Vex_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDC50C829445A7E00E12CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDC50B529445A7C00E12CBC /* Vex */;
+			targetProxy = ACDC50C729445A7E00E12CBC /* PBXContainerItemProxy */;
+		};
+		ACDC50D229445A7E00E12CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDC50B529445A7C00E12CBC /* Vex */;
+			targetProxy = ACDC50D129445A7E00E12CBC /* PBXContainerItemProxy */;
+		};
+		ACDC50DF29445A7E00E12CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDC50DB29445A7E00E12CBC /* Vex Watch App */;
+			targetProxy = ACDC50DE29445A7E00E12CBC /* PBXContainerItemProxy */;
+		};
+		ACDC50F029445A8000E12CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDC50DB29445A7E00E12CBC /* Vex Watch App */;
+			targetProxy = ACDC50EF29445A8000E12CBC /* PBXContainerItemProxy */;
+		};
+		ACDC50FA29445A8000E12CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDC50DB29445A7E00E12CBC /* Vex Watch App */;
+			targetProxy = ACDC50F929445A8000E12CBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACDC510029445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDC510129445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ACDC510329445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79D046604681BBAB65CA816 /* Pods-Vex Watch App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vex Watch App/Vex Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vex Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vex;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "App wants to access health records.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App wants to share health records.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App wants to update health records.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = knoxweb.Vex;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.Vex.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		ACDC510429445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4EC9AD9ABA15FBF0012215 /* Pods-Vex Watch App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vex Watch App/Vex Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vex Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Vex;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "App wants to access health records.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App wants to share health records.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App wants to update health records.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = knoxweb.Vex;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.Vex.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		ACDC510729445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D869973C8985014B36E7C54 /* Pods-Vex.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vex/Vex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vex/Preview Content\"";
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App wants to connect to the sockets";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "App wants to access health records";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App wants to share health records";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App wants to update health records";
+				INFOPLIST_KEY_NSMotionUsageDescription = "App wants to connect to the sockets";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.Vex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDC510829445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4209BF6E0E6EB196753CA9 /* Pods-Vex.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vex/Vex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vex/Preview Content\"";
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App wants to connect to the sockets";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "App wants to access health records";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "App wants to share health records";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "App wants to update health records";
+				INFOPLIST_KEY_NSMotionUsageDescription = "App wants to connect to the sockets";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.Vex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDC510A29445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A882F236FB0462F1FE821BAA /* Pods-VexTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.VexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vex";
+			};
+			name = Debug;
+		};
+		ACDC510B29445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E93FC5F1912A68DC2B5ED1D /* Pods-VexTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.VexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vex";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDC510D29445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B0125205E52C4E6C10D780 /* Pods-Vex-VexUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.VexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vex;
+			};
+			name = Debug;
+		};
+		ACDC510E29445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8015EAC8D5BD9706131BCB2F /* Pods-Vex-VexUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = knoxweb.VexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vex;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDC511029445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E1785D4C1D080BE9B10F33 /* Pods-Vex Watch AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knoxweb.Vex-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vex Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vex Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		ACDC511129445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555542CA7CE04797E21CE6E5 /* Pods-Vex Watch AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knoxweb.Vex-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vex Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vex Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		ACDC511329445A8000E12CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E87622ACE5D96B294E1876 /* Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knoxweb.Vex-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Vex Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		ACDC511429445A8000E12CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CEF361B097C3CE30A64E8A /* Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQGQU3RV34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knoxweb.Vex-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Vex Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDC50B129445A7C00E12CBC /* Build configuration list for PBXProject "Vex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC510029445A8000E12CBC /* Debug */,
+				ACDC510129445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC510229445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC510329445A8000E12CBC /* Debug */,
+				ACDC510429445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC510629445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC510729445A8000E12CBC /* Debug */,
+				ACDC510829445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC510929445A8000E12CBC /* Build configuration list for PBXNativeTarget "VexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC510A29445A8000E12CBC /* Debug */,
+				ACDC510B29445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC510C29445A8000E12CBC /* Build configuration list for PBXNativeTarget "VexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC510D29445A8000E12CBC /* Debug */,
+				ACDC510E29445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC510F29445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC511029445A8000E12CBC /* Debug */,
+				ACDC511129445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC511229445A8000E12CBC /* Build configuration list for PBXNativeTarget "Vex Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC511329445A8000E12CBC /* Debug */,
+				ACDC511429445A8000E12CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FEFAD8B729487E2C00C330D2 /* XCRemoteSwiftPackageReference "TerraRTiOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tryterra/TerraRTiOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FEFAD8B829487E2C00C330D2 /* TerraRTiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEFAD8B729487E2C00C330D2 /* XCRemoteSwiftPackageReference "TerraRTiOS" */;
+			productName = TerraRTiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ACDC50AE29445A7C00E12CBC /* Project object */;
+}

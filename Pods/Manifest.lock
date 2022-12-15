@@ -1,0 +1,16 @@
+PODS:
+  - ActivityIndicatorView (1.1.0)
+
+DEPENDENCIES:
+  - ActivityIndicatorView
+
+SPEC REPOS:
+  trunk:
+    - ActivityIndicatorView
+
+SPEC CHECKSUMS:
+  ActivityIndicatorView: 2a73f96feeb64c8583a0a9dfeeee27ddb8f71b4d
+
+PODFILE CHECKSUM: dade9d15f799cf549f95b178a57db79eeb7d1afd
+
+COCOAPODS: 1.11.3
